@@ -3,21 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{9CA15413-221D-4069-BABE-4C183461E229}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{9CA15413-221D-4069-BABE-4C183461E229}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{83FE1482-1093-41DF-8EAF-CC240188E348}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{83FE1482-1093-41DF-8EAF-CC240188E348}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{ABA21165-AF06-4173-BEBC-3EBF75ECD452}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{ABA21165-AF06-4173-BEBC-3EBF75ECD452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{2EE1435C-94AF-4542-B9E2-BFF3BA712927}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{2EE1435C-94AF-4542-B9E2-BFF3BA712927}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "client-app", "client-app\", "{46B414DE-BA61-4F2D-AA44-9C2B3997F9D0}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59097"
+		Debug.AspNetCompiler.PhysicalPath = "client-app\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59097\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59097"
+		Release.AspNetCompiler.PhysicalPath = "client-app\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59097\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59097"
+		SlnRelativePath = "client-app\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9CA15413-221D-4069-BABE-4C183461E229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +54,13 @@ Global
 		{2EE1435C-94AF-4542-B9E2-BFF3BA712927}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EE1435C-94AF-4542-B9E2-BFF3BA712927}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EE1435C-94AF-4542-B9E2-BFF3BA712927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B414DE-BA61-4F2D-AA44-9C2B3997F9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B414DE-BA61-4F2D-AA44-9C2B3997F9D0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0476D0AC-BBF8-49D4-84F1-9A8BF34E302F}
 	EndGlobalSection
 EndGlobal
