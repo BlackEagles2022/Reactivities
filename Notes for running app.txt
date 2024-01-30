@@ -1,0 +1,16 @@
+Για να τρέξει  η εφαρμογή Reactivities και να σηκωθεί το http://localhost:3000/
+πρεπει απο το powershell να τρέξω το :
+PS C:\Users\Boutsikas\Projects\demo\Reactivities\client-app>npm start
+για να το σταματήσω, βρίσκω το pid  απο εδώ: 
+netstat -ano | find "3000" 
+και το σκοτώνω.
+
+ΕΠΊΣΗΣ πρέπει να σηκώσω και το API. (αν δεν σηκώσω το API, μου δείχνει την σελίδα στο 3000, αλλα δεν φερνει data.)
+αυτό γίνεται αντίστοιχα απο το 
+PS C:\Users\Boutsikas\Projects\demo\Reactivities\api> dotnet watch
+ή dotnet run
+ή δεξι κλικ στο API, και επιλογή στο Debug\Start new instance
+
+
+
+
